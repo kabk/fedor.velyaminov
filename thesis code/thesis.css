@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body {
+font-size: 24px;	
+}
+
+div#text {
+background-color: #ffffff;
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:50px;
+text-align:justify;
+top: 0;
+left: 0;
+right: 60px;
+bottom: 60px;
+z-index:  1000;
+}
+div#images {
+background-color: #fa9067;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index:  0;
+}
+div#text2 {
+background-color: #ffffff;
+position: fixed;
+overflow:auto;
+padding-left:0px;
+padding-right:0px;
+text-align:center;
+top: 130px;
+left: 130px;
+right: 830px;
+bottom: 300px;
+z-index:  1000;
+}
+div#images img {
+position: absolute;
+}
+div#images:hover {
+z-index:  2000;
+}
+/* CSS Document */
+

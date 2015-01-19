@@ -3,9 +3,265 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Документ без названия</title>
-<link rel="stylesheet" href="thesis2.css" />
-<link type="text/css" href="jquery.jscrollpane.css" rel="stylesheet" />
+<link rel="stylesheet" title="Отключено для предварительного просмотра в браузере:thesis2.css" />
+<style type="text/css">
+
+
+
+body {
+font-size: 24px;	
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	transform: rotate(90deg);
+	text-align:right;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+h6 {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: left;
+	font-style:italic;
+	text-align: right;
+	}
+h5 {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	}
+div#text {
+background-color: #ffffff;
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:120px;
+text-align:justify;
+top: 0;
+left: 0;
+right: 120px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text5 {
+position: fixed;
+overflow: auto;
+padding-left:70px;
+padding-right:0px;
+text-align:justify;
+top: 10px;
+left: 1050px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text6 {
+position: fixed;
+overflow: auto;
+padding-left:70px;
+padding-right:0px;
+text-align:justify;
+top: 190px;
+left: 1050px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text7 {
+position: fixed;
+overflow: auto;
+padding-left:70px;
+padding-right:0px;
+text-align:justify;
+top: 370px;
+left: 1050px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text8 {
+position: fixed;
+overflow: auto;
+padding-left:70px;
+padding-right:0px;
+text-align:justify;
+top: 560px;
+left: 1055px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#images {
+background-color: #fa9067;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index:  0;
+}
+div#text2 {
+background-color: #ffffff;
+position: fixed;
+overflow:auto;
+padding-left:0px;
+padding-right:0px;
+text-align:center;
+top: 130px;
+left: 130px;
+right: 830px;
+bottom: 300px;
+z-index:  1000;
+}
+div#images img {
+position: absolute;
+}
+div#images:hover {
+z-index:  2000;
+}
+/* CSS Document */
+
+
+
+</style>
+<link rel="stylesheet" title="Отключено для предварительного просмотра в браузере:jquery.jscrollpane.css" type="text/css" />
+<style type="text/css">
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+</style>
 <style>
+
 a:link {
     color:#000000;
     background-color:transparent;
@@ -26,6 +282,7 @@ a:active {
     background-color:transparent;
     text-decoration:underline;
 }
+
 </style>
 </head>
 

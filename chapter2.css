@@ -124,9 +124,9 @@ overflow:auto;
 padding-left:0px;
 padding-right:0px;
 text-align:center;
-top: 150px;
+top: 100px;
 left: 130px;
-right: 770px;
+width: 300px;
 bottom: 380px;
 z-index:  1000;
 }

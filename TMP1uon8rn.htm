@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Документ без названия</title>
+<link rel="stylesheet" title="Отключено для предварительного просмотра в браузере:chapter3.css" />
+<style type="text/css">
+
+
+
+body {
+font-size: 24px;	
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	transform: rotate(90deg);
+	text-align:right;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+}
+h7 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+	line-height: 70%;
+	color:#FFF	
+	}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+h6 {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: left;
+	font-style:italic;
+	text-align: right;
+	}
+h5 {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	}
+div#text5 {
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:20px;
+text-align:justify;
+top: 10px;
+left: 1000px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text6 {
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:20px;
+text-align:center;
+top: 100px;
+left: 1000px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text7 {
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:20px;
+text-align:center;
+top: 200px;
+left: 1000px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text8 {
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:20px;
+text-align:justify;
+top: 320px;
+left: 1002px;
+right: 10px;
+bottom: 0px;
+z-index:  1000;
+}
+div#text {
+background-color: #ffffff;
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:120px;
+text-align:justify;
+top: 0;
+left: 0;
+right: 220px;
+bottom: 60px;
+z-index:  1000;
+}
+div#images {
+background-color: #3929b2;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index:  0;
+}
+div#text2 {
+background-color: #ffffff;
+position: fixed;
+overflow:auto;
+padding-left:0px;
+padding-right:0px;
+text-align:center;
+top: 100px;
+left: 130px;
+width: 300px;
+bottom: 380px;
+z-index:  1000;
+}
+div#text3 {
+position: fixed;
+overflow: auto;
+padding-left:20px;
+padding-right:120px;
+text-align:justify;
+top: 280;
+left: 20;
+right: 770px;
+bottom: 110px;
+z-index:  1000;
+}
+div#images img {
+position: absolute;
+}
+div#images:hover {
+z-index:  2000;
+}
+/* CSS Document */
+
+
+
+</style>
+<link rel="stylesheet" title="Отключено для предварительного просмотра в браузере:jquery.jscrollpane.css" type="text/css" />
+<style type="text/css">
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+</style>
+<style>
+
+a:link {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+
+
+<body>
+<div id="text">
+<h1><p <center>CHAPTER III</center></h1>
+</p>
+<h1><p <center>1.1 Aesthetic functionality in graphic design of today</center></h1>
+<p>
+For many centuries new artistic styles have been developing through disturbance of beauty and aesthetics as demonstrated in the initially significant works by artists such as Edouard Manet (January 23, 1832- April 30, 1883) or Pablo Picasso (October 25, 1881 - April 8, 1973). But while art was allowed to be beautiful, design had to convey functionality. Tendencies in graphic design and visual communication, until very recently, were all variations on what was functionally considered to be appropriate. However in the last couple of decades practical approach in applied creative disciplines has begun to rebel. 
+</p>
+<p>
+Graphic design is not exceptionally influenced by modern trends and tendencies. The variety of examples ranges from visual communication to product design, furniture design, art, and photography. It is stimulating to observe how numerous today's "professional" designers create "conceptual" design, custom-produced for a client, that seems to favor content over appearance. Nevertheless, nowadays graphic design is often articulates very distinctive for visual communication artistic language that can be as well characterized to be a trend or fashion. 
+</p>
+<p>
+It is interesting to explore graphic design from an entirely opposite functional side that ignores content of work and analyzes just its appearance. But is it possible to distinct and argue about content not relative to visual part? Is it appropriate to present graphic design without further investigation? Sometimes it appears so. Nowadays it can be observed at any exhibition of graphic design where the works are out of context and the spectator is generally not able to go under the exterior of displayed posters. They do not examine the content. They perceive design only visually.
+</p>
+<p>
+It is quite hard to initiate or fully establish the circumstances of such delectation of aesthetics in modern graphic design but it is worth mentioning that the conditions of slowly vanishing printed media and engrossing digital revolution that comes together with an ability of propagation of artwork online gives an opportunity to an artist to break through and explore the existing boundaries of the field.
+</p>
+<p>
+We are now able to observe the phenomenon of mergence of the graphic design with other artistic disciplines like installation design, editorial design, photography or fashion. In this case, very often facets between these fields begin to blur and vanish. Graphic design in such circumstances cannot help being affected and inherit the aesthetical core of other fields. Very clear example of an “undefined field” demonstrates studios like Etudes   Akatre   Uber and Kosher   Studio L'Étiquette   Rene Mes   the list can be continued. In such cases graphic design often takes a position of elitarian art and acts as the multifunctional discipline. 
+</p>
+<p>
+But how to define the function of graphic design in this case? In essence since the very emergence of graphic disciplines nothing has changed. In the core Graphic design has always been a “motor” of trade and commerce and today it is not an exception. If we simply look around to examine visual graphics that surround us, we find a verity of examples of beautiful design that essentially is meant for selling. Psychologically, an ordinary spectator of our consumer society, spoiled by diversity, does not attempt to inspect the content of a particular design and often reacts or focuses only on the appearance and the originality of an art work that appeals to him most. In this case the functionality stands alongside with visual attractiveness that cannot be saparated from each other. The debate on the importance of a particular notion looses its relevance.
+</p>
+<h1><p <center>1.2 Objectivity in design</center></h1>
+<p>
+Almost Every particular poster has a visual language that attempts to attract viewers in a certain way. Since design must attract a broad range of people it is worth talking about objective functionality. St. Augustine (see above) wonders whether an object is beautiful because it pleases or pleases because it is beautiful, he gives rather a logical answer that the object pleases because it is beautiful. After all Graphic design is a constant attempt to please visually and attract the largest amount of spectators possible.
+</p>
+<p>
+Since the beginning of the twentieth century Graphic designers were straggling with an idea of affection or even manipulation (propaganda posters in soviet union) of a great number of people by means of graphic language. Mathematical investigations of order in beauty by Adam Birkhoff (see above) is also related to graphic design through grid developed at the beginning of the last century and since then it was widely used in design in order to achieve maximal coherence and organize everything in its appropriate place.
+Birkhoff himself conceded that an intuitive appreciation is better than any attempt to analyze the source of one's delight in a beautiful object. He argued, that pleasure is evoked due to an unconscious appreciation of the mathematical proportions of the object.
+</p>
+
+</div>
+<div id="text5">
+<h4><a href="chapter1.html" target="_blank">CHAPTER I</a><h4> 
+</div>
+<div id="text6">
+<h4><a href="chapter2.html" target="_blank">CHAPTER II</a><h4> 
+</div>
+<div id="text7">
+<h4><a href="chapter3.html" target="_blank">CHAPTER III</a><h4> 
+</div>
+<div id="text8"> 
+<h4><a href="CONCLUSION.html" target="_blank">CONCLUSION</a><h4> 
+</div>
+<div id="images">
+<img src="akatre.jpg" class="piss" width=360 style="left:70px;top:100px;" />
+<img src="etudes.jpg" class="urinal" width=450 style="left:770px;top:50px;" />
+<img src="etique.jpg" class="skull" width=270 style="left:20px;top:200px;" />
+<img src="rene.JPG" class="jim" width=400 style="left:400px;top:200px;" />
+<img src="uber.jpg" class="shit" width=500 style="left:400px;top:90px;" />
+<img src="blah.jpg" class="pile" width=400 style="left:800px;top:320px;" />
+<img src="akatre2.jpg" class="bed" width=450 style="left:320px;top:
+20px;" />
+<img src="brick.jpg" class="lit" width=630 style="left:220px;top:190px;" />
+<div id="text2">
+<p>
+<h1><p> CHAPTER III<br>
+</p>
+</h1>
+<div id="text3">
+<h7><p id="piss" class="art-description">Etudes studio</h7>
+</p>
+<h7><p id="urinal" class="art-description">Akatre studio</h7>
+</p>
+<h7><p id="skull" class="art-description">Rene mes studio</h7>
+</p>
+<h7><p id="jim" class="art-description">L'Étiquette studio</h7>
+</p>
+<h7><p id="shit" class="art-description">Uber and Kosher studio</h7>
+</p>
+<h7><p id="pile" class="art-description">Akatre studio</h7>
+</p>
+<h7><p id="bed" class="art-description">Les-graphiquants studio</h7>
+</p>
+<h7><p id="lit" class="art-description">córdova — canillas studio</h7>
+</p>
+</div>
+<script src="jquery-1.11.2.js"></script>
+<script src="jquery.mousewheel.js"></script>
+<script src="jquery.jscrollpane.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

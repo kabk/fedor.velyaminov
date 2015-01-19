@@ -109,7 +109,7 @@ bottom: 60px;
 z-index:  1000;
 }
 div#images {
-background-color: #fa9067;
+background-color: #ad9b8a;
 position: fixed;
 top: 0;
 left: 0;
@@ -136,10 +136,10 @@ overflow: auto;
 padding-left:20px;
 padding-right:120px;
 text-align:justify;
-top: 280;
+top: 200;
 left: 3;
-right: 650px;
-bottom: 110px;
+right: 680px;
+bottom: 140px;
 z-index:  1000;
 }
 div#images img {
